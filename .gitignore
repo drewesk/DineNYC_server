@@ -1,0 +1,57 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+bun.lockb
+
+package-lock.json
+
+# Logs & runtime
+logs/
+*.log
+*.log.*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage & test output
+coverage/
+.nyc_output/
+junit.xml
+.tap/
+.tap
+
+# Build artifacts / caches
+dist/
+build/
+tmp/
+temp/
+.cache/
+.eslintcache
+.stylelintcache
+.turbo/
+*.tsbuildinfo
+
+# Env & secrets
+.env
+.env.*        # keep examples tracked:
+!.env.example
+
+# Databases (dev)
+*.sqlite
+*.sqlite3
+*.db
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editors/IDE
+.vscode/
+.idea/
+*.iml
+
+# Docker (local overrides)
+.docker/

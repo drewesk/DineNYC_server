@@ -1,0 +1,23 @@
+{
+  "name": "dine_server",
+  "version": "1.0.0",
+  "description": "backend to my frontend",
+  "homepage": "https://github.com/drewesk/DineNYC_server#readme",
+  "bugs": {
+    "url": "https://github.com/drewesk/DineNYC_server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drewesk/DineNYC_server.git"
+  },
+  "license": "MIT",
+  "author": "Andrew Eskenazi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
